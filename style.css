@@ -160,9 +160,50 @@
     background-color: #f0f0f0;;
 }
 
+
+
+
 #work {
     min-height: 100vh;
 }
+.howBox {
+    display: flex;
+    margin-left: 150px
+}
+
+.boxNameHow {
+    padding: 0 0 70px 25px;
+    margin: 0;
+    width: 550px;
+    margin-left: 80px;
+}
+.boxNameHow p {
+    font-size: 14px;
+    text-align: start;
+}
+.boxNameHow h3 {
+    font-size: 20px;
+    text-align: start;
+}
+.howIcon img {
+    width: 84px;
+    border-radius: 100%;
+    border: solid 2px rgb(122, 122, 122);;
+    position: absolute;
+    z-index: 1;
+}
+.line {
+    border-left: 2px solid #d1d1d1;
+    height: 500px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 190px;
+}
+
+
+
+
+
 
 
 #contact {
@@ -177,6 +218,36 @@
         background-color: rgb(10, 10, 10, 0.7);
     }
 }
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100% ;
+    }
+    .howBox {
+        margin-left: 40px;
+    }
+    .line {
+        height: 540px;
+        margin-top: 65px;
+        margin-left: 80px;
+    }
+    .container {
+        margin: 0 50px;
+    }
+    
+}
+
+@media screen and (max-width: 775px) {
+    .howBox {
+        margin-left: 20px;
+    }
+    .line {
+        margin-left: 60px;
+    }
+    .container {
+        margin: 0 20px;
+    }
+}
+
 
 @media screen and (max-width: 700px)  {
     .anna {
@@ -195,6 +266,16 @@
         padding: 20px 30px;
    
     }
+    .boxNameHow h3 {
+        font-size: 18px;
+    }
+    .boxNameHow p {
+        font-size: 12px;
+    }
+    .line {
+            height: 500px;
+    }
+
 }
 @media screen and (max-width: 540px) {
     .list  {
@@ -206,6 +287,13 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .line {
+        height: 540px;
+}
+}
+
 
 @media screen and (max-width: 440px) {
     .list  {
@@ -219,4 +307,45 @@
     .listHeading {
         font-size: 30px;
     }
+    .howBox {
+        margin-left: 10px;
+    }
+    .line {
+    
+     margin-left: 50px;
+        
+        height: 560px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .line {
+           
+           height: 600px;
+   }
+}
+@media screen and (max-width: 370px) {
+    .line {
+           
+           height: 630px;
+   }
+}
+@media screen and (max-width: 330px) {
+    .line {
+           
+           height: 700px;
+   }
+}
+
+@media screen and (max-width: 315px) {
+    .line {
+           
+           height: 760px;
+   }
+}
+@media screen and (max-width: 290px) {
+    .line {
+           
+           height: 860px;
+   }
 }
