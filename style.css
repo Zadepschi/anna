@@ -14,7 +14,9 @@
     font-size: 20px;
     color: white;
 }
-
+.navbar-brand {
+    margin-left: 40px;
+}
 .navbar-nav {
     align-items: center;
 }
