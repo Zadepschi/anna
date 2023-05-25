@@ -321,7 +321,7 @@
     display: flex;
     width: 50%;
     height: 90vh;
-    padding: 100px;
+    padding: 50px;
     flex-direction: column;
 }
 
@@ -402,6 +402,19 @@ footer {
     .containerFlex {
         margin: 0 40px;
     }
+    .contactHeader p {
+        font-size: 22px;
+        margin: 0 0 5px;
+       
+    }
+    .contactHeader .city {
+        font-size: 16px;
+        margin:  10px  0;
+    }
+    .contactBox {
+        padding: 20px;
+    }
+
     
 }
 
@@ -416,15 +429,17 @@ footer {
     .list ul {
         padding: 0;
     }
-    .contactBox {
-        padding: 50px;
-    }
+   
     .item {
         height: 30vh;
 
     }
     .containerFlex {
         margin: 0 40px;
+    }
+    .contactHeader p {
+        font-size: 20px;
+       
     }
 }
 
@@ -484,10 +499,10 @@ footer {
          }
          .contactHeader .city {
             font-size: 16px;
-            margin:  10px  0;
+            margin:  3px  0;
         }
         .contactBox {
-            padding: 20px;
+            padding: 10px;
         }
         .contactHeader h5 {
             font-size: 25px;
@@ -497,6 +512,9 @@ footer {
             width: 100%;
             margin: 0;
             padding: 0;
+        }
+        .contactIcon {
+            margin: 0;
         }
        
 }
@@ -510,6 +528,11 @@ footer {
 .containerFlex {
 
     margin: 0 20px;
+}
+.contactHeader p {
+    font-size: 22px;
+padding: 10px;
+   
 }
 }
 
@@ -545,8 +568,9 @@ footer {
     
 }
 .contactBox {
-    padding: 30px;
+    padding: 5pxpx;
 }
+
 }
 
 
