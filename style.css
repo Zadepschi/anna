@@ -399,7 +399,7 @@
     font-size: 12px;
     }
     .priceBox {
-    width: 80%;
+    width: 90%;
     }
     .item {
     height: 25vh;
@@ -451,6 +451,9 @@
     .contactHeader p {
     font-size: 22px;
     padding: 10px;
+    }
+    .priceBox {
+    width: 100%;
     }
     }
     @media screen and (max-width: 440px) {
