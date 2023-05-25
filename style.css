@@ -487,6 +487,12 @@
     font-size: 27px;
     padding: 7px;
     }
+    .priceHeader {
+        margin: 10px;
+    }
+    .priceBtn {
+        margin: 20px;
+    }
     }
     @media screen and (max-width: 315px) {
     .contactHeader p {
