@@ -267,7 +267,6 @@
 .contactBox {
     display: flex;
     width: 50%;
-    border: black 2px solid;
     height: 90vh;
     padding: 100px;
     flex-direction: column;
@@ -275,7 +274,6 @@
 
 .map {
     width: 50%;
-    border: black 2px solid;
     height: 90vh;
 }
 .contactHeader h5 {
@@ -285,7 +283,12 @@
 .contactHeader p {
     font-size: 22px;
     margin: 0 0 20px;
+   
 }
+ .linkContact {
+    text-decoration: none;
+    color: black;
+ }
 .contactHeader .city {
     font-size: 16px;
     margin:  40px  0;
@@ -301,7 +304,9 @@
 footer {
     display: flex;
     justify-content: center;
+    height: 10vh;
     padding: 20px;
+    align-items: end;
 }
 
 
@@ -328,6 +333,14 @@ footer {
     .container {
         margin: 0 50px;
     }
+    .contactWrapper {
+        flex-direction: column;
+
+    }
+    .contactBox, .map {
+        width: 100%;
+        height: 45vh;
+    }
     
 }
 
@@ -343,6 +356,9 @@ footer {
     }
     .list ul {
         padding: 0;
+    }
+    .contactBox {
+        padding: 50px;
     }
 }
 
@@ -439,9 +455,14 @@ footer {
    .priceBox {
 
     padding: 20px 5px;
+    
+}
+.contactBox {
+    padding: 30px;
+}
+}
 
-}
-}
+
 @media screen and (max-width: 370px) {
     .line {
            
@@ -452,7 +473,13 @@ footer {
     width: 95%;
      
      }
+     .contactHeader p {
+        font-size: 18px;
+       
+    }
 }
+
+
 @media screen and (max-width: 330px) {
     .line {
            
@@ -465,6 +492,11 @@ footer {
            
            height: 760px;
    }
+   .contactHeader p {
+    font-size: 16px;
+   
+}
+
 }
 @media screen and (max-width: 295px) {
     .line {
