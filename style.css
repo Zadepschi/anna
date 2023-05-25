@@ -22,7 +22,7 @@
 }
 .wrapper1 {
 
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
@@ -34,14 +34,14 @@
     text-align: center;
   color: white;
   font-size: 68px;
-  padding: 24px 0;
+  padding: 10px 0;
   margin: 20px;
 }
 .paragraph {
     text-align: center;
     color: white;
     font-size: 20px;
-    margin: 60px;
+    margin: 40px;
 }
 
 .button {
@@ -143,7 +143,7 @@
 }
 .aboutPar {
     width: 620px;
-    margin: 50px;
+    margin: 30px;
 }
 .aboutPar p {
  text-align: center;
@@ -154,6 +154,64 @@
 #project {
     min-height: 100vh;
 }
+.projectHeader h2, p {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.projectHeader  p {
+    font-size: 24px;
+}
+ 
+
+
+.containerFlex {
+    display: flex;
+    margin: 0 50px;
+}
+
+.item {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    position: relative;
+    flex: 1;
+}
+.one {
+    background-image: url(1.jpg);
+}
+.two {
+    background-image: url(2.jpg);
+}
+.selected {
+    flex: 2;
+}
+
+
+
+.three {
+    background-image: url(3.jpg);
+}
+.four {
+    background-image: url(4.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #price {
     min-height: 100vh;
@@ -230,6 +288,8 @@
 .boxNameHow p {
     font-size: 14px;
     text-align: start;
+    margin: 0;
+    padding: 0;
 }
 .boxNameHow h3 {
     font-size: 20px;
@@ -241,13 +301,6 @@
     border: solid 2px rgb(122, 122, 122);;
     position: absolute;
     z-index: 1;
-}
-.line {
-    border-left: 2px solid #d1d1d1;
-    height: 500px;
-    position: absolute;
-    margin-top: 65px;
-    margin-left: 190px;
 }
 
 
@@ -277,6 +330,8 @@
     height: 90vh;
 }
 .contactHeader h5 {
+    display: flex;
+    justify-content: center;
     font-size: 28px;
     margin: 0 0 45px;
 }
@@ -295,9 +350,13 @@
 }
 .contactIcon {
    margin-top: 40px;
+   display: flex;
+   justify-content: center;
 }
 
-
+.contactIcon img {
+   margin: 5px;
+}
 
 
 
@@ -305,8 +364,7 @@ footer {
     display: flex;
     justify-content: center;
     height: 10vh;
-    padding: 20px;
-    align-items: end;
+
 }
 
 
@@ -325,11 +383,7 @@ footer {
     .howBox {
         margin-left: 40px;
     }
-    .line {
-        height: 540px;
-        margin-top: 65px;
-        margin-left: 80px;
-    }
+
     .container {
         margin: 0 50px;
     }
@@ -341,16 +395,21 @@ footer {
         width: 100%;
         height: 45vh;
     }
+    .item {
+        height: 30vh;
+
+    }
+    .containerFlex {
+        margin: 0 40px;
+    }
     
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 768px) {
     .howBox {
         margin-left: 20px;
     }
-    .line {
-        margin-left: 60px;
-    }
+
     .container {
         margin: 0 20px;
     }
@@ -359,6 +418,13 @@ footer {
     }
     .contactBox {
         padding: 50px;
+    }
+    .item {
+        height: 30vh;
+
+    }
+    .containerFlex {
+        margin: 0 40px;
     }
 }
 
@@ -386,16 +452,22 @@ footer {
     .boxNameHow p {
         font-size: 12px;
     }
-    .line {
-            height: 500px;
-    }
+
     .priceBox {
 
    width: 80%;
     
     }
+    .item {
+        height: 25vh;
 
+    }
+    .containerFlex {
+        margin: 0 30px;
+    }
 }
+
+
 @media screen and (max-width: 540px) {
     .list  {
 
@@ -410,11 +482,34 @@ footer {
         width: 90%;
          
          }
+         .contactHeader .city {
+            font-size: 16px;
+            margin:  10px  0;
+        }
+        .contactBox {
+            padding: 20px;
+        }
+        .contactHeader h5 {
+            font-size: 25px;
+            margin: 0 0 10px;
+        }
+        .aboutPar p {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+       
 }
 
 @media screen and (max-width: 470px) {
-    .line {
-        height: 540px;
+
+.item {
+    height: 25vh;
+
+}
+.containerFlex {
+
+    margin: 0 20px;
 }
 }
 
@@ -434,12 +529,7 @@ footer {
     .howBox {
         margin-left: 10px;
     }
-    .line {
-    
-     margin-left: 50px;
-        
-        height: 560px;
-}
+
 .priceBox {
 
     padding: 20px 30px;
@@ -448,10 +538,7 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .line {
-           
-           height: 600px;
-   }
+
    .priceBox {
 
     padding: 20px 5px;
@@ -464,10 +551,7 @@ footer {
 
 
 @media screen and (max-width: 370px) {
-    .line {
-           
-           height: 630px;
-   }
+
    .priceBox {
 
     width: 95%;
@@ -480,27 +564,13 @@ footer {
 }
 
 
-@media screen and (max-width: 330px) {
-    .line {
-           
-           height: 700px;
-   }
-}
+
 
 @media screen and (max-width: 315px) {
-    .line {
-           
-           height: 760px;
-   }
+
    .contactHeader p {
     font-size: 16px;
    
 }
 
-}
-@media screen and (max-width: 295px) {
-    .line {
-           
-           height: 860px;
-   }
 }
