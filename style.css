@@ -238,6 +238,14 @@
     #work {
     min-height: 100vh;
     }
+    .workHeader {
+        display: flex;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+    }
     .howBox {
     display: flex;
     margin-left: 150px
