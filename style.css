@@ -469,32 +469,27 @@
     .howBox {
     margin-left: 10px;
     }
-    .priceBox {
-    padding: 20px 30px;
-    }
     }
     @media screen and (max-width: 400px) {
     .priceBox {
-    padding: 20px 5px;
+    padding: 5px 5px;
     }
     .contactBox {
     padding: 5pxpx;
     }
     }
     @media screen and (max-width: 370px) {
-    .priceBox {
-    width: 95%;
-    }
+
     .contactHeader p {
     font-size: 18px;
+    }
+    .pricePar {
+    font-size: 27px;
+    padding: 7px;
     }
     }
     @media screen and (max-width: 315px) {
     .contactHeader p {
     font-size: 16px;
-    }
-    .pricePar {
-    font-size: 27px;
-    padding: 7px;
     }
     }
