@@ -1,3 +1,4 @@
+
 #landing {
     background-image:linear-gradient(rgba(28, 26, 26, 0.6), rgba(0, 0, 0, 0.5)),  url("background.jpg");
     background-position: center;
@@ -11,9 +12,11 @@
     padding: 0 10px;
     font-size: 20px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
     }
     .navbar-brand {
     margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
     }
     .navbar-nav {
     align-items: center;
@@ -33,17 +36,20 @@
     font-size: 68px;
     padding: 10px 0;
     margin: 20px;
+    font-family: 'Montserrat', sans-serif;
     }
     .paragraph {
     text-align: center;
     color: white;
     font-size: 20px;
     margin: 40px;
+    font-family: 'Montserrat', sans-serif;
     }
     .button {
     display: flex;
     justify-content: center;
     margin: 20px;
+    font-family: 'Montserrat', sans-serif;
     }
     .yellow{
     background-color: #ffbe49;
@@ -62,6 +68,7 @@
     .listHeading {
     font-size: 38px;
     margin: 30px;
+    font-family: 'Montserrat', sans-serif;
     }
     .list {
     display: flex;
@@ -75,6 +82,7 @@
     font-size: 22px;
     padding: 5px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     }
     .serviceBox {
     display: flex;
@@ -91,10 +99,12 @@
     font-size: 18px;
     text-align: center;
     margin: 25px 0 25px;
+    font-family: 'Montserrat', sans-serif;
     }
     .boxPar {
     font-size: 14px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     }
     .box img {
     width: 100px;
@@ -111,6 +121,7 @@
     justify-content: center;
     padding: 10px;
     margin: 20px;
+    font-family: 'Montserrat', sans-serif;
     }
     .aboutHeader h2 {
     font-size: 42px;
@@ -130,6 +141,7 @@
     .aboutPar {
     width: 620px;
     margin: 30px;
+    font-family: 'Montserrat', sans-serif;
     }
     .aboutPar p {
     text-align: center;
@@ -144,6 +156,7 @@
     justify-content: center;
     margin: 20px;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif;
     }
     .projectHeader  p {
     font-size: 24px;
@@ -185,6 +198,7 @@
     padding: 10px;
     margin: 20px;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
     }
     .priceContainer {
     display: flex;
@@ -197,6 +211,7 @@
     border-radius: 9px;
     margin: 10px;
     filter: drop-shadow(2px 2px 8px   #c4c5c5);
+    font-family: 'Montserrat', sans-serif;
     }
     .priceBox ul {
     list-style: none;
@@ -210,6 +225,7 @@
     padding: 15px 30px;
     font-size:  14px;
     border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
     }
     .pricePar {
     font-size: 38px;
@@ -231,6 +247,7 @@
     margin: 0;
     width: 700px;
     margin-left: 80px;
+    font-family: 'Montserrat', sans-serif;
     }
     .boxNameHow p {
     font-size: 14px;
@@ -262,6 +279,7 @@
     height: 90vh;
     padding: 50px;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
     }
     .map {
     width: 50%;
