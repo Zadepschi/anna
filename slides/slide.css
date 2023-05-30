@@ -1,10 +1,10 @@
 :root {
-    --cbfawsbg:  #f0f0f0;
-    --cbfawsbc: #595656 ;
-    --cbfawssc1: #464141;
-    --cbfawssc2: #8e7b7e;
+    --cbfawsbg:  #f4eeee;
+    --cbfawsbc: #ded1d1 ;
+    --cbfawssc1: #161212;
+    --cbfawssc2: #181515;
     --cbfawssc3: #333333;
-    --cbfawssc4: #807e7e;
+    --cbfawssc4: #171212;
     --cbfawsacc4: #3a3a3a;
   }
   
@@ -100,7 +100,7 @@
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
-    background-color: rgba(225, 224, 224, 0.929);
+    background-color: rgba(32, 31, 31, 0.929);
   }
 
 
