@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
 }
-img {
+.img {
     border-radius: 20px;
 }
 .wrapperParent {
@@ -101,7 +101,7 @@ textarea {
     .wrapperForm {
         width: 95%;
     }
-    img {
+    .img {
         width: 100%;
     }
 }
