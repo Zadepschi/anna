@@ -68,6 +68,10 @@ input{
   border-radius: 0 0 15px 15px ;
   font-family: 'Montserrat', sans-serif;
 }
+.descripsion {
+    font-size: 14px;
+    margin-top: 6px;
+}
 textarea {
     border: none;
   border-bottom: 2px solid #f0f0f0;
