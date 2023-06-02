@@ -112,13 +112,15 @@
     margin: 0;
     padding: 0;
     }
-    .box img {
+
+    .box svg {
     width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     }
+    
     #about {
     background-color: #f0f0f0;
     }
@@ -304,6 +306,16 @@
     position: absolute;
     z-index: 1;
     }
+    .howIcon svg {
+        width: 84px;
+        border-radius: 100%;
+        border: solid 2px rgb(122, 122, 122);;
+        position: absolute;
+        z-index: 1;
+        border-color: #ffe649;
+        background-color: #b7bb96;
+        border-width: 3px;
+        }
     #contact {
     min-height: 100vh;
     background-color: #f0f0f0;;
