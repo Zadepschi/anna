@@ -318,7 +318,7 @@
         }
     #contact {
     min-height: 100vh;
-    background-color: #f0f0f0;;
+    background-color: #f0f0f0;
     }
     .contactWrapper {
     display: flex;
@@ -334,6 +334,8 @@
     .map {
     width: 50%;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
     }
     .contactHeader h5 {
     display: flex;
@@ -360,6 +362,12 @@
     }
     .contactIcon img {
     margin: 5px;
+    }
+    .clusterMaps {
+        margin-top: 20px;
+        width: 300px;
+        height: 190px;
+        align-self: center;
     }
     footer {
     display: flex;
@@ -572,6 +580,9 @@
     }
     .priceBtn {
         margin: 20px;
+    }
+    .clusterMaps {
+        width: 90%;
     }
     }
     @media screen and (max-width: 315px) {
