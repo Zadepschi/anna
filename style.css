@@ -55,11 +55,14 @@
     font-family: 'Montserrat', sans-serif;
     }
     .yellow{
-    background-color: #ffbe49;
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 20px 60px;
+        background-color: #b7bb96;
+        border: 6px solid #ffe649;
+        color: white;
+        margin: 30px 40px;
+        padding: 15px 60px;
+        font-size:  14px;
+        border-radius: 30px;
+        font-family: 'Montserrat', sans-serif;
     }
     .icon {
     display: flex;
