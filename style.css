@@ -58,8 +58,8 @@
         background-color: #b7bb96;
         border: 6px solid #ffe649;
         color: white;
-        margin: 30px 40px;
-        padding: 15px 60px;
+        margin: 30px 60px;
+        padding: 15px 40px;
         font-size:  14px;
         border-radius: 30px;
         font-family: 'Montserrat', sans-serif;
@@ -570,6 +570,10 @@
     }
     }
     @media screen and (max-width: 370px) {
+    .yellow  {
+        padding: 15px 30px;
+        margin: 20px;
+    }
 
     .contactHeader p {
     font-size: 18px;
