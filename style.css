@@ -98,9 +98,19 @@
     }
     .box {
     width: 300px;
-    margin: 10px;
-    padding: 10px;
     }
+    .box svg {
+  
+        border-radius: 100%;
+        border: solid 3px rgb(122, 122, 122);
+        border-color: #ffe649;
+        background-color: #b7bb96;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
     .boxName {
     font-size: 15px;
     font-weight: bold;
@@ -114,14 +124,6 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    }
-
-    .box svg {
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
     }
     
     #about {
