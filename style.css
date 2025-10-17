@@ -379,6 +379,14 @@
     justify-content: center;
     height: 10vh;
     }
+   .link a {
+  color: inherit;         
+  text-decoration: none;   
+  }
+
+    .link a:hover {
+       text-decoration: underline; 
+    }
     @media screen and (max-width: 1200px){
     .navbar {
     background-color: rgb(10, 10, 10, 0.7);
